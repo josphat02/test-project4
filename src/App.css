@@ -7,25 +7,25 @@
   background-color: rgba(82, 18, 230, 0.795); /* Optional: set a background color */
   flex-grow: 1;
   border-radius: 8px;
-  width: 100%;
-  padding: 10%;
-  flex-direction: column;
-  padding: 20px;
+  width: 120%;
+  padding: 1px;
   box-sizing: border-box;
-  background-image:url(https://media.istockphoto.com/id/1300444386/photo/the-white-house-in-washington-dc.jpg?s=612x612&w=0&k=20&c=CEipbiIfsLyGNriyJrTTWj8LttUoh6hwrCD0ArP0OSk=);
+  background-image:url("https://media.istockphoto.com/id/1300444386/photo/the-white-house-in-washington-dc.jpg?s=612x612&w=0&k=20&c=CEipbiIfsLyGNriyJrTTWj8LttUoh6hwrCD0ArP0OSk=");
 background-size: cover;
+background-attachment: fixed;
 
-background-position: center;
+
 }
 
 
 .card-container{
-  border: 1px solid #ddd;
+  border: 1px solid hsl(32, 89%, 46%);
   border-radius: 8px;
-  padding: 0px;
+  padding: 16px;
   width: 1400px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #3be42c;
+  background-repeat:no-repeat ;
+  background-attachment: fixed;
   text-align: center;
   display: flex;
   flex-direction: row;
